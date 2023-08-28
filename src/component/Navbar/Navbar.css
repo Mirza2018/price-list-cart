@@ -1,0 +1,39 @@
+nav a {
+    text-decoration: none;
+
+}
+
+.ancor {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.icon {
+    visibility: hidden;
+}
+
+.ancor1 {
+    visibility: hidden;
+}
+
+@media screen and (max-width: 800px) {
+    .ancor {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .icon,
+    .ancor1 {
+        visibility: visible;
+    }
+
+    .ancor2 {
+        visibility: hidden;
+    }
+
+    /* {
+        visibility: visible;
+    } */
+
+}
